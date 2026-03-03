@@ -1,0 +1,218 @@
+/* Truck Animation
+#wheel, #wheel-2, #wheel-3{
+  animation: wheel 1s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+  
+}
+
+@keyframes wheel {
+  from {
+    transform: rotateZ(360deg);
+  }  
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes line {
+  from {
+    transform: translate(50px, -177.51px);
+  }  
+  to {
+    transform: translate(112.73px, -177.51px);
+  }
+}
+#Line path{
+  animation: line 1s linear infinite;
+}
+
+#Man{
+  display: none;
+}
+
+@keyframes truck {
+  from {
+    transform: translate(500px, 0px);
+  }  
+  to {
+    transform: translate(-850px, 0px);
+  }
+}
+
+#Truck{
+  animation: truck 10s linear infinite;
+} */
+
+	/* Truck Animation */
+
+    @keyframes wheel {
+        /* from {
+          transform: rotateZ(360deg);
+        }  
+        to {
+          transform: rotateZ(0deg);
+        } */
+        0% {	transform: rotateZ(360deg); }
+        /* 10% {  transform: rotateZ(0deg); } */
+        /* 20% {  transform: rotateZ(0deg);  } */
+        30% {  transform: rotateZ(0deg);  }
+        40% {  transform: rotateZ(0deg);  }
+        50% {  transform: rotateZ(0deg); }  
+        60% { transform: rotateZ(0deg);  }    
+        70% {  transform: rotateZ(0deg); }    
+        80% {  transform: rotateZ(360deg); }    
+        90% {  transform: rotateZ(0deg); }   
+        100% { transform: rotateZ(0deg); }
+      }
+      #wheel, #wheel-2, #wheel-3, #wheel-2_2_, #wheel-3_2_, #wheel_2_{
+        animation: wheel 12s linear infinite;
+        transform-origin: center;
+        transform-box: fill-box;
+        
+      }
+      
+      @keyframes line {
+        from {
+          transform: translate(-100px, 0px);
+        }  
+        to {
+          transform: translate(80px, 0px);
+        }
+      }
+      #line{
+        /* animation: line 2s linear infinite; */
+        /* transform-origin: center; */
+        /* transform-box: fill-box; */
+      }
+      
+      @keyframes truckJute {
+        0% {	right: 0;   transform: translate(500px, 0px); }
+        10% {  transform: translate(300px, 0px); }
+        20% {  transform: translate(100px, 0px);  }
+        30% {  transform: translate(-140px, 0px);  }
+        40% {  transform: translate(-140px, 0px);  }
+        50% {  transform: translate(-140px, 0px); }  
+        60% { transform: translate(-140px, 0px);  }    
+        70% {  transform: translate(-140px, 0px); }    
+        80% {  transform: translate(-300px, 0px); }    
+        90% {  transform: translate(-600px, 0px); }   
+        100% { transform: translate(-850px, 0px); }
+      }
+      
+      #truckJute{
+        animation: truckJute 12s linear infinite;
+      }
+    
+      @keyframes man1 {
+        0% {	opacity: 1;   }
+        10% {  opacity: 1; }
+        20% {  opacity: 1;  }
+        30% { opacity: 1;   }
+    
+        40% { opacity: 0;   }
+        50% { opacity: 0;  }  
+        60% { opacity: 0;   }    
+        70% { opacity: 1;  }    
+        80% { opacity: 1; }    
+        90% { opacity: 1; }   
+        100% { opacity: 1; }
+      }
+      
+      #man1{
+        animation: man1 12s linear infinite;
+      } 
+      
+      @keyframes man2 {
+        0% {	opacity: 0;   }
+        10% {  opacity: 0; }
+        20% {  opacity: 0;  }
+        30% { opacity: 0; transform: translate(-140px, 0px);  }
+        40% { opacity: 1; transform: translate(-140px, 0px);  }
+        50% { opacity: 1; transform: translate(-140px, 0px); }  
+        60% { opacity: 1; transform: translate(-140px, 0px);  }    
+        70% { opacity: 0; transform: translate(-140px, 0px); }    
+        80% { opacity: 0; }    
+        90% { opacity: 0; }   
+        100% { opacity: 0; }
+      }
+      
+      #man2{
+        animation: man2 12s linear infinite;
+      }
+    
+    
+      @keyframes bg_one {
+        0% {	transform: translate(-5000px, 0px);  }
+        10% { transform: translate(-5000px, 0px); }
+        20% { transform: translate(0px, 0px);  }
+        30% { transform: translate(0px, 0px);  }
+        40% { transform: translate(0px, 0px);  }
+        50% { transform: translate(0px, 0px); }  
+        60% { transform: translate(0px, 0px);  }    
+        70% { transform: translate(0px, 0px); }    
+        80% { transform: translate(0px, 0px); }    
+        90% { transform: translate(-5000px, 0px); }   
+        100% { transform: translate(-5000px, 0px); }
+      }
+      
+      #bg1{
+        animation: bg_one 12s linear infinite;
+      }
+    
+      @keyframes bg_two {
+        0% {	transform: translate(-5000px, 0px);  }
+        10% { transform: translate(-5000px, 0px); }
+        20% { transform: translate(-5000px, 0px);  }
+        30% { transform: translate(0px, 0px);  }
+        40% { transform: translate(0px, 0px);  }
+        50% { transform: translate(0px, 0px); }  
+        60% { transform: translate(0px, 0px);  }    
+        70% { transform: translate(0px, 0px); }    
+        80% { transform: translate(0px, 0px); }    
+        90% { transform: translate(-5000px, 0px); }   
+        100% { transform: translate(-5000px, 0px); }
+      }
+      
+      #bg2{
+        animation: bg_two 12s linear infinite;
+      }
+    
+      @keyframes bg_three {
+        0% {	transform: translate(-5000px, 0px);  }
+        10% { transform: translate(-5000px, 0px); }
+        20% { transform: translate(-5000px, 0px);  }
+        30% { transform: translate(-5000px, 0px);  }
+        40% { transform: translate(-5000px, 0px);  }
+        50% { transform: translate(0px, 0px); }  
+        60% { transform: translate(0px, 0px);  }    
+        70% { transform: translate(0px, 0px); }    
+        80% { transform: translate(0px, 0px); }    
+        90% { transform: translate(-5000px, 0px); }   
+        100% { transform: translate(-5000px, 0px); }
+      }
+      
+      #bg3{
+        animation: bg_three 12s linear infinite;
+      }
+    
+      @keyframes paper {
+        0% {	transform: translate(-5000px, 0px);  }
+        10% { transform: translate(-5000px, 0px); }
+        20% { transform: translate(-5000px, 0px);  }
+        30% { transform: translate(-5000px, 0px);  }
+        40% { transform: translate(0px, 0px);  }
+        50% { transform: translate(0px, 0px); }  
+        60% { transform: translate(0px, 0px);  }    
+        70% { transform: translate(-5000px, 0px); }    
+        80% { transform: translate(-5000px, 0px); }    
+        90% { transform: translate(-5000px, 0px); }   
+        100% { transform: translate(-5000px, 0px); }
+      }
+      
+      .st43,.st44,.st64{
+        animation: paper 12s linear infinite;
+      }
+    
+    /* Close Truck Animation */
+    
